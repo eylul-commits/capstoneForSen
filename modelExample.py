@@ -2,4 +2,4 @@ from getFaceData import FaceModel
 import cv2
 
 model = FaceModel()
-print(model.getFaceData(cv2.imread("youngWoman.jpg")))
+print(model.getFaceData(cv2.imread("man.jpg")))
